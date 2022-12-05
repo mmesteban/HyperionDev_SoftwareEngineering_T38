@@ -1,7 +1,7 @@
 import spacy
 
 print("_____________________en_core_web_md_____________________")
-nlp_md = spacy.load('en_core_web_md')
+nlp_md = spacy.load('en_core_web_sm')
 
 word1 = nlp_md("cat")
 word2 = nlp_md("monkey")
@@ -32,7 +32,7 @@ print(word3.similarity(word1))
 
 # I will try now with three other words:
 print("_____________________en_core_web_md_____________________")
-nlp_md = spacy.load('en_core_web_md')
+nlp_md = spacy.load('en_core_web_sm')
 
 word1 = nlp_md("car")
 word2 = nlp_md("wheel")
